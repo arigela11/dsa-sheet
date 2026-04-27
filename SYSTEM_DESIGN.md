@@ -169,22 +169,22 @@ Progress.completedProblems keys reference Topics → Subtopics → Problems
 ### Auth Endpoints
 | Method | Path | Description | Auth |
 |---|---|---|---|
-| POST | /api/auth/register | Create new user | ❌ |
-| POST | /api/auth/login | Login, get JWT | ❌ |
-| GET | /api/auth/me | Get current user | ✅ |
+| POST | /api/auth/register | Create new user 
+| POST | /api/auth/login | Login, get JWT 
+| GET | /api/auth/me | Get current user 
 
 ### Topics Endpoints
 | Method | Path | Description | Auth |
 |---|---|---|---|
-| GET | /api/topics | Get all topics | ❌ |
-| GET | /api/topics/:slug | Get topic by slug | ✅ |
+| GET | /api/topics | Get all topics 
+| GET | /api/topics/:slug | Get topic by slug 
 
 ### Progress Endpoints
 | Method | Path | Description | Auth |
 |---|---|---|---|
-| GET | /api/progress | Get user progress | ✅ |
-| POST | /api/progress/toggle | Toggle one problem | ✅ |
-| POST | /api/progress/bulk | Bulk update progress | ✅ |
+| GET | /api/progress | Get user progress 
+| POST | /api/progress/toggle | Toggle one problem 
+| POST | /api/progress/bulk | Bulk update progress 
 
 ---
 
